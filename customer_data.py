@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import numpy as np
-data=pd.read_csv('/workspaces/wholesale_customer/mentornow/Wholesale_customers_data.csv')
+data=pd.read_csv('Wholesale_customers_data.csv')
 st.write(data)
 
 value=data['Region'].unique()
